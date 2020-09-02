@@ -1,0 +1,24 @@
+{
+  "label": "Application",
+  "name": "core_app",
+  "fields": {
+    "name": {
+      "name": "name",
+      "type": "short_string",
+      "unique": true
+    },
+    "label": {
+      "name": "label",
+      "type": "short_string"
+    }
+  },
+  "unique_id": "47e3a45b-d7be-4e6b-b4ea-89081f9249b0",
+  "_metadata": {
+    "collection_name": "core_collection",
+    "active": true,
+    "created_on": 1483228800,
+    "created_by": "admin",
+    "updated_on": 1483228800,
+    "updated_by": "admin"
+  }
+}

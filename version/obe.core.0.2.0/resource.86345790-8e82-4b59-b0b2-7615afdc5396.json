@@ -1,0 +1,16 @@
+{
+    "label": "dive.js",
+    "name": "dive.js",
+    "language": "JavaScript",
+    "content": "/*\n * Get Global dependencies:\n * VueX\n * Vue-router\n */\n// let $ = jQuery = require('jquery');\n// let Vue = require('vue');\n\n/*\n * Setup Dive dependencies\n */\nimport {DiveDataStore} from '/resources/dive-datastore.js';\nimport {StateMutation} from '/resources/dive-state-mutation.js';\nimport {DiveEventSystem} from '/resources/dive-event-system.js';\nimport {DiveApplication} from '/resources/dive-application.js';\nimport {Logger} from '/resources/dive-logger.js';\nimport {DiveFramework} from '/resources/dive-framework.vue.js';\n\nLogger.info('Initializing...');\n\n/*\n * Setup Vue dependencies:\n * VueX\n * Vue-router\n */\nVue.use(Vuex);\nVue.use(VueRouter);\n\n/*\n * Bootstrap Dive Application\n */\nclass DiveInstance extends Vue {\n    constructor(properties) {\n        super(properties);\n    }\n}\n\nnew DiveInstance({\n    render: h => h(DiveFramework),\n    router: new VueRouter({\n        mode: 'history',\n        routes: [\n            // dynamic segments start with a colon\n        ]\n    }),\n    store: new Vuex.Store(DiveDataStore)\n}).$mount('#app');\n\nLogger.info('Setup complete');",
+    "unique_id": "86345790-8e82-4b59-b0b2-7615afdc5396",
+    "dependencies": [],
+    "_metadata": {
+        "collection_name": "resource",
+        "active": true,
+        "created_on": 1483228800,
+        "created_by": "admin",
+        "updated_on": 1483228800,
+        "updated_by": "admin"
+    }
+}

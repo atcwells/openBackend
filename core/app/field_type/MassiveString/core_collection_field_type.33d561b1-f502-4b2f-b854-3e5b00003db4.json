@@ -1,0 +1,13 @@
+{
+  "name": "massive_string",
+  "internal_type": "STRING",
+  "unique_id": "33d561b1-f502-4b2f-b854-3e5bbd033db4",
+  "_metadata": {
+    "created_on": 1483228800,
+    "created_by": "admin",
+    "updated_on": 1483228800,
+    "updated_by": "admin",
+    "collection_name": "core_collection_field_type",
+    "indexes": {}
+  }
+}

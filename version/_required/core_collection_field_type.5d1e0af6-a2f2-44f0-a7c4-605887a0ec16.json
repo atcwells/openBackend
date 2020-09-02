@@ -1,0 +1,13 @@
+{
+    "name": "json",
+    "internal_type": "JSON",
+    "unique_id": "5d1e0af6-a2f2-44f0-a7c4-605887a0ec16",
+    "_metadata": {
+        "created_on": 1483228800,
+        "created_by": "admin",
+        "updated_on": 1483228800,
+        "updated_by": "admin",
+        "collection_name": "core_collection_field_type",
+        "indexes": {}
+    }
+}

@@ -1,0 +1,24 @@
+{
+  "label": "App API",
+  "name": "core_app_api",
+  "fields": {
+    "name": {
+      "name": "name",
+      "type": "short_string",
+      "unique": true
+    },
+    "label": {
+      "name": "label",
+      "type": "short_string"
+    }
+  },
+  "unique_id": "5fcfb6da-2bc4-4896-9733-cd701518344f",
+  "_metadata": {
+    "collection_name": "core_collection",
+    "active": true,
+    "created_on": 1483228800,
+    "created_by": "admin",
+    "updated_on": 1483228800,
+    "updated_by": "admin"
+  }
+}

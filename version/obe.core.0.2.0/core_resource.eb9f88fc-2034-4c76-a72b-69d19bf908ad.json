@@ -1,0 +1,18 @@
+{
+    "label": "CORE: Index",
+    "name": "index.html",
+    "language": "HTML",
+    "content": "<html>\n<head>\n    <meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\">\n    <meta name=\"robots\" content=\"noindex, nofollow\">\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/resources/semantic.min.css\">\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/resources/main.css\">\n</head>\n<body>\n\n<div id=\"app\">\n</div>\n\n<script type=\"text/javascript\" src=\"/resources/jquery.min.js\"></script></script>\n<script type=\"text/javascript\" src=\"/resources/moment.min.js\"></script>\n<script type=\"text/javascript\" src=\"/resources/vue.min.js\"></script>\n<script type=\"text/javascript\" src=\"/resources/vuex.min.js\"></script>\n<script type=\"text/javascript\" src=\"/resources/vue-router.min.js\"></script>\n<script type=\"text/javascript\" src=\"/resources/ace.min.js\"></script>\n<script type=\"module\" src=\"/resources/dive.js\"></script>\n<script src=\"/resources/semantic.min.js\"></script>\n</body>\n</html>",
+    "unique_id": "eb9f88fc-2034-4c76-a72b-69d19bf908ad",
+    "dependencies": [
+        "dive.js"
+    ],
+    "_metadata": {
+        "collection_name": "core_resource",
+        "active": true,
+        "created_on": 1483228800,
+        "created_by": "admin",
+        "updated_on": 1483228800,
+        "updated_by": "admin"
+    }
+}

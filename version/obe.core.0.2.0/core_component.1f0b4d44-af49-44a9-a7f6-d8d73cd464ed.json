@@ -1,0 +1,14 @@
+{
+    "name": "ConsoleLogTransport",
+    "label": "Console Log Transport",
+    "unique_id": "1f0b4d44-af49-44a9-a7f6-d8d73cd464ed",
+    "_metadata": {
+        "unique_fields": "collection_name",
+        "collection_name": "core_component",
+        "created_on": 1483228800,
+        "created_by": "admin",
+        "updated_on": 1483228800,
+        "updated_by": "admin",
+        "indexes": {}
+    }
+}

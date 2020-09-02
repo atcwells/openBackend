@@ -1,0 +1,71 @@
+{
+  "name": "openbackend",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "obe_options": {
+    "instance_name": "demo001",
+    "mode": "OBE_DEVELOPER",
+    "owner": "Dive",
+    "cache_server": {
+      "port": 6000
+    },
+    "cache_manager": {
+      "host": "localhost",
+      "port": 6000,
+      "auth_pass": "",
+      "db": 0,
+      "ttl": 600
+    },
+    "database": {
+      "port": 5432,
+      "host": "localhost",
+      "database_name": "test",
+      "username": "alexwells",
+      "password": "test_password"
+    },
+    "log_manager": {
+      "max_buffer_length": 100,
+      "log_transports": [
+        {
+          "name": "Console",
+          "level": "Debug"
+        },
+        {
+          "name": "File",
+          "level": "Info",
+          "filePath": "/log"
+        }
+      ]
+    },
+    "engines": []
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atcwells/openBackend.git"
+  },
+  "type": "module",
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/atcwells/openBackend/issues"
+  },
+  "homepage": "https://github.com/atcwells/openBackend#readme",
+  "dependencies": {
+    "base-64": "^0.1.0",
+    "cache-manager": "^3.1.0",
+    "cache-manager-redis-store": "^2.0.0",
+    "lodash": "^4.17.15",
+    "momentjs": "^2.0.0",
+    "node-notifier": "^6.0.0",
+    "pg": "^7.18.2",
+    "redis-server": "^1.2.2",
+    "semver": "^7.1.3",
+    "sequelize": "^5.21.5",
+    "shelljs": "^0.8.3",
+    "uuid": "^7.0.1"
+  }
+}

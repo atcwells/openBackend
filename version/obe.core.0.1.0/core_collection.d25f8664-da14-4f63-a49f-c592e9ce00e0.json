@@ -1,0 +1,42 @@
+{
+  "label": "Web Transaction",
+  "name": "web_transaction",
+  "fields": {
+    "name": {
+      "name": "name",
+      "type": "short_string",
+      "unique": true
+    },
+    "path_requested": {
+      "name": "path_requested",
+      "type": "short_string"
+    },
+    "url": {
+      "name": "url",
+      "type": "short_string"
+    },
+    "body_json": {
+      "name": "body_json",
+      "type": "json"
+    },
+    "valid_request": {
+      "name": "valid_request",
+      "type": "true_false"
+    },
+    "request_type": {
+      "name": "request_type",
+      "type": "short_string"
+    }
+  },
+  "collection_type": "log",
+  "unique_id": "d25f8664-da14-4f63-a49f-c592e9ce00e0",
+  "_metadata": {
+    "collection_name": "core_collection",
+    "created_on": 1483228800,
+    "created_by": "admin",
+    "updated_on": 1483228800,
+    "updated_by": "admin",
+    "unique_fields": "name",
+    "indexes": {}
+  }
+}

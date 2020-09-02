@@ -1,0 +1,14 @@
+{
+    "name": "reference",
+    "internal_type": "UUID",
+    "unique_id": "74b52f3f-0405-4790-bae9-b3e656395528",
+    "script": "DQogICAgICAgIHRoaXMuaXRlbXMgPSBvcHRzLml0ZW1zDQoNCiAgICAgICAgbGV0IGVkaXQgPSAoZSkgPT4gew0KICAgICAgICAgICAgdGhpcy50ZXh0ID0gZS50YXJnZXQudmFsdWUNCiAgICAgICAgfQ0KDQogICAgICAgIGxldCBhZGQgPSAoZSkgPT4gew0KICAgICAgICAgICAgaWYgKHRoaXMudGV4dCkgew0KICAgICAgICAgICAgICAgIHRoaXMuaXRlbXMucHVzaCh7dGl0bGU6IHRoaXMudGV4dH0pOw0KICAgICAgICAgICAgICAgIHRoaXMudGV4dCA9IHRoaXMuaW5wdXQudmFsdWUgPSAnJzsNCiAgICAgICAgICAgIH0NCiAgICAgICAgfQ0KDQogICAgICAgIGxldCB0b2dnbGUgPSAoZSkgPT4gew0KICAgICAgICAgICAgbGV0IGl0ZW0gPSBlLml0ZW07DQogICAgICAgICAgICBpdGVtLmRvbmUgPSAhaXRlbS5kb25lOw0KICAgICAgICAgICAgcmV0dXJuIHRydWU7DQogICAgICAgIH0=",
+    "_metadata": {
+        "created_on": 1483228800,
+        "created_by": "admin",
+        "updated_on": 1483228800,
+        "updated_by": "admin",
+        "collection_name": "core_collection_field_type",
+        "indexes": {}
+    }
+}

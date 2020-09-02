@@ -1,0 +1,13 @@
+{
+  "name": "vue_template",
+  "internal_type": "JSON",
+  "unique_id": "32c7c034-1e40-498d-a5b8-ff406f8d2a86",
+  "_metadata": {
+    "created_on": 1483228800,
+    "created_by": "admin",
+    "updated_on": 1483228800,
+    "updated_by": "admin",
+    "collection_name": "core_collection_field_type",
+    "indexes": {}
+  }
+}

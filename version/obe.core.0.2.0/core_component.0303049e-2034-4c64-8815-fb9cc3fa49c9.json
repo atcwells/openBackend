@@ -1,0 +1,14 @@
+{
+    "name": "LogFileTransport",
+    "label": "Log File Transport",
+    "unique_id": "0303049e-2034-4c64-8815-fb9cc3fa49c9",
+    "_metadata": {
+        "unique_fields": "collection_name",
+        "created_on": 1483228800,
+        "created_by": "admin",
+        "updated_on": 1483228800,
+        "updated_by": "admin",
+        "collection_name": "core_component",
+        "indexes": {}
+    }
+}

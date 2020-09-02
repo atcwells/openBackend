@@ -1,0 +1,13 @@
+{
+  "name": "software_version",
+  "internal_type": "STRING",
+  "unique_id": "e0f75730-4182-47b3-be4b-0fc6a6faf236",
+  "_metadata": {
+    "created_on": 1483228800,
+    "created_by": "admin",
+    "updated_on": 1483228800,
+    "updated_by": "admin",
+    "collection_name": "core_collection_field_type",
+    "indexes": {}
+  }
+}

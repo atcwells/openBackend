@@ -1,0 +1,13 @@
+{
+  "name": "vue_script",
+  "internal_type": "TEXT",
+  "unique_id": "27512669-ae5b-40c1-9484-aa84f9c5a4e1",
+  "_metadata": {
+    "created_on": 1483228800,
+    "created_by": "admin",
+    "updated_on": 1483228800,
+    "updated_by": "admin",
+    "collection_name": "core_collection_field_type",
+    "indexes": {}
+  }
+}

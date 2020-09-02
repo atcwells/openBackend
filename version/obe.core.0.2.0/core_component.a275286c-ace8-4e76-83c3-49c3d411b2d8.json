@@ -1,0 +1,14 @@
+{
+    "name": "Webserver",
+    "label": "Webserver",
+    "unique_id": "a275286c-ace8-4e76-83c3-49c3d411b2d8",
+    "_metadata": {
+        "unique_fields": "collection_name",
+        "collection_name": "core_component",
+        "created_on": 1483228800,
+        "created_by": "admin",
+        "updated_on": 1483228800,
+        "updated_by": "admin",
+        "indexes": {}
+    }
+}

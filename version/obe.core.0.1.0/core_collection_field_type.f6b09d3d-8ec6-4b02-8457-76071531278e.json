@@ -1,0 +1,13 @@
+{
+    "name": "script",
+    "internal_type": "TEXT",
+    "unique_id": "f6b09d3d-8ec6-4b02-8457-76071531278e",
+    "_metadata": {
+        "created_on": 1483228800,
+        "created_by": "admin",
+        "updated_on": 1483228800,
+        "updated_by": "admin",
+        "collection_name": "core_collection_field_type",
+        "indexes": {}
+    }
+}

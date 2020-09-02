@@ -1,0 +1,19 @@
+{
+  "name": "obe.app.schema_manager",
+  "label": "Schema Manager",
+  "version": "0.1.0",
+  "dependencies": {
+    "obe.core": {
+      "version": "^0.1.0"
+    }
+  },
+  "unique_id": "55eeabbb-ebe9-4ebb-a741-6d00e2636f94",
+  "_metadata": {
+    "created_on": 1483228800,
+    "created_by": "SYSTEM",
+    "updated_on": 1483228800,
+    "updated_by": "SYSTEM",
+    "collection_name": "core_manifest",
+    "indexes": {}
+  }
+}

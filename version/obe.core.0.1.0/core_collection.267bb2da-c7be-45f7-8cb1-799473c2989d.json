@@ -1,0 +1,41 @@
+{
+  "label": "Collection Action",
+  "name": "core_collection_action",
+  "fields": {
+    "name": {
+      "name": "name",
+      "type": "short_string",
+      "unique": true
+    },
+    "parent_collection": {
+      "name": "parent_collection",
+      "type": "reference"
+    },
+    "collection_script": {
+      "name": "collection_script",
+      "type": "reference"
+    },
+    "script": {
+      "name": "script",
+      "type": "script"
+    },
+    "label": {
+      "name": "label",
+      "type": "short_string"
+    },
+    "method_name": {
+      "name": "method_name",
+      "type": "short_string"
+    }
+  },
+  "unique_id": "267bb2da-c7be-45f7-8cb1-799473c2989d",
+  "_metadata": {
+    "collection_name": "core_collection",
+    "created_on": 1483228800,
+    "created_by": "admin",
+    "updated_on": 1483228800,
+    "updated_by": "admin",
+    "unique_fields": "name",
+    "indexes": {}
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "label": "App API Method",
+  "name": "core_app_api_method",
+  "fields": {
+    "name": {
+      "name": "name",
+      "type": "short_string",
+      "unique": true
+    },
+    "label": {
+      "name": "label",
+      "type": "short_string"
+    },
+    "api": {
+      "name": "api",
+      "type": "reference"
+    },
+    "collection_action": {
+      "name": "collection_action",
+      "type": "reference"
+    }
+  },
+  "unique_id": "10e42060-10d4-48b0-b5ca-e77ee0ed0931",
+  "_metadata": {
+    "collection_name": "core_collection",
+    "active": true,
+    "created_on": 1483228800,
+    "created_by": "admin",
+    "updated_on": 1483228800,
+    "updated_by": "admin"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "label": "Collection Type",
+  "name": "core_collection_type",
+  "fields": {
+    "name": {
+      "name": "name",
+      "type": "short_string",
+      "unique": true
+    },
+    "description": {
+      "name": "description",
+      "type": "short_string"
+    }
+  },
+  "unique_id": "2bd38529-a737-4d0f-8de7-92b41270a927",
+  "_metadata": {
+    "collection_name": "core_collection",
+    "created_on": 1483228800,
+    "created_by": "admin",
+    "updated_on": 1483228800,
+    "updated_by": "admin",
+    "unique_fields": "name",
+    "indexes": {}
+  }
+}

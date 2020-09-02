@@ -1,0 +1,16 @@
+{
+    "label": "dive-logger.js",
+    "name": "dive-logger.js",
+    "language": "JavaScript",
+    "content": "export let Logger = (() => {\n\n    let getPrefix = () => {\n        const mom = moment();\n        mom.utc();\n        const year = mom.format('YYYY');\n        const month = mom.format('MM');\n        const day = mom.format('DD');\n        const hour = mom.format('HH');\n        const minute = mom.format('mm');\n        const second = mom.format('ss');\n        const ms = mom.format('SSS');\n        const ymd = year + '-' + month + '-' + day;\n        const timestamp = `${hour}:${minute}:${second} (${ms})`;\n        return `${ymd} ${timestamp}`;\n    };\n\n    let error = (msg, obj) => {\n        console.error(`${getPrefix()} - ERROR - ${msg}`);\n        if (obj)\n            console.log(obj);\n    };\n\n    let debug = (msg, obj) => {\n        console.debug(`${getPrefix()} - DEBUG - ${msg}`);\n        if (obj)\n            console.log(obj);\n    };\n\n    let info = (msg, obj) => {\n        console.info(`${getPrefix()} - INFO - ${msg}`);\n        if (obj)\n            console.log(obj);\n    };\n\n    return {\n        error,\n        debug,\n        info\n    }\n})();",
+    "unique_id": "40e8ee3d-e0fd-4e4f-9fa3-393994947e76",
+    "dependencies": [],
+    "_metadata": {
+        "collection_name": "resource",
+        "active": true,
+        "created_on": 1483228800,
+        "created_by": "admin",
+        "updated_on": 1483228800,
+        "updated_by": "admin"
+    }
+}

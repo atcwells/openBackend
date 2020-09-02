@@ -1,0 +1,16 @@
+{
+    "label": "dive-framework.vue.js",
+    "name": "dive-framework.vue.js",
+    "language": "JavaScript",
+    "content": "export let DiveFramework = {\n    name: 'Dive',\n    template: `\n        <div class=\"ui grid\">\n            <div id=\"core-header\" class=\"sixteen wide column\" style=\"border: 1px solid red\">\n                <h1 class=\"ui header\">Dive - {{ getCurrentApplicationLabel }}</h1>\n            </div>\n    \n            <div class=\"sixteen wide column\" style=\"border: 1px solid green\">\n                <div class=\"ui grid\">\n                    <div id=\"core-menu-navigation\" class=\"four wide column\" style=\"border: 1px solid blue\">\n                        <h3 class=\"text-muted\">Applications</h3>\n                        <nav>\n                            <ul class=\"nav nav-pills pull-right\">\n                                <li role=\"presentation\" v-for=\"application in applications\">\n                                    <a href=\"#\" :data-target-view=\"application.unique_id\"\n                                       @click=\"changeView(application.unique_id)\">\n                                        {{ application.label }}\n                                    </a>\n                                </li>\n                            </ul>\n                        </nav>\n                    </div>\n    \n                    <div id=\"core-current-application\" class=\"twelve wide column\" style=\"border: 1px solid violet\">\n                        <div class=\"ui loader\"></div>\n                        <transition name=\"component-fade\" mode=\"out-in\">\n                            <component :is=\"state.currentApplicationId\"></component>\n                        </transition>\n                    </div>\n                </div>\n            </div>\n    \n            <div id=\"core-footer\" class=\"sixteen wide column\" style=\"border: 1px solid yellow\">\n                <h3 class=\"ui header\">Footer</h3>\n            </div>\n        </div>`,\n    data() {\n        return {\n            state: this.$store.state,\n            applications: this.$store.state.records.app\n        }\n    },\n    methods: {\n        changeView(applicationId) {\n            let appName = this.$store.state.records.core_app[applicationId].name;\n            this.$router.push({path: `/app/${appName}`});\n            this.$store.commit('updateCurrentApp', {\n                value: applicationId\n            });\n        }\n    },\n    computed: {\n        getCurrentApplicationLabel() {\n            if (!this.state.currentApplicationId)\n                return '';\n\n            return this.$store.state.records.core_app[this.state.currentApplicationId].label;\n        }\n    }\n};",
+    "unique_id": "f48a6413-1826-4fbc-9350-7436d193ede6",
+    "dependencies": [],
+    "_metadata": {
+        "collection_name": "resource",
+        "active": true,
+        "created_on": 1483228800,
+        "created_by": "admin",
+        "updated_on": 1483228800,
+        "updated_by": "admin"
+    }
+}

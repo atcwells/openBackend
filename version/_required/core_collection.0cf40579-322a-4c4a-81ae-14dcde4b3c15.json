@@ -1,0 +1,33 @@
+{
+  "label": "Manifest",
+  "name": "core_manifest",
+  "fields": {
+    "name": {
+      "name": "name",
+      "type": "short_string",
+      "unique": true
+    },
+    "label": {
+      "name": "label",
+      "type": "short_string"
+    },
+    "version": {
+      "name": "version",
+      "type": "short_string"
+    },
+    "dependencies": {
+      "name": "dependencies",
+      "type": "json"
+    }
+  },
+  "unique_id": "0cf40579-322a-4c4a-81ae-14dcde4b3c15",
+  "_metadata": {
+    "collection_name": "core_collection",
+    "created_on": 1483228800,
+    "created_by": "admin",
+    "updated_on": 1483228800,
+    "updated_by": "admin",
+    "unique_fields": "name",
+    "indexes": {}
+  }
+}

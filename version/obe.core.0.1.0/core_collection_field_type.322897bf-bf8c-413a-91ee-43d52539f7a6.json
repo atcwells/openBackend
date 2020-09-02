@@ -1,0 +1,13 @@
+{
+    "name": "css",
+    "internal_type": "JSON",
+    "unique_id": "322897bf-bf8c-413a-91ee-43d52539f7a6",
+    "_metadata": {
+        "created_on": 1483228800,
+        "created_by": "admin",
+        "updated_on": 1483228800,
+        "updated_by": "admin",
+        "collection_name": "core_collection_field_type",
+        "indexes": {}
+    }
+}

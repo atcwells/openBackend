@@ -1,0 +1,19 @@
+{
+  "name": "obe.core",
+  "label": "Core",
+  "version": "0.2.0",
+  "dependencies": {
+    "obe.core": {
+      "version": "0.1.0"
+    }
+  },
+  "unique_id": "1e6600e7-de83-4aa1-ba10-8f1f1f576a45",
+  "_metadata": {
+    "created_on": 1483228800,
+    "created_by": "SYSTEM",
+    "updated_on": 1483228800,
+    "updated_by": "SYSTEM",
+    "collection_name": "core_manifest",
+    "indexes": {}
+  }
+}

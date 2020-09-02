@@ -1,0 +1,23 @@
+{
+  "name": "core_component",
+  "label": "Component",
+  "unique_id": "3112dcb8-148b-47e8-b8c3-8055023d178e",
+  "fields": {
+    "name": {
+      "name": "name",
+      "type": "short_string"
+    },
+    "test2": {
+      "name": "test2",
+      "type": "short_string"
+    }
+  },
+  "_metadata": {
+    "collection_name": "core_collection",
+    "created_on": 1483228800,
+    "created_by": "admin",
+    "updated_on": 1483228800,
+    "updated_by": "admin",
+    "indexes": {}
+  }
+}

@@ -1,0 +1,13 @@
+{
+    "name": "true_false",
+    "internal_type": "BOOLEAN",
+    "unique_id": "b2a6228e-d805-4cac-b4d5-696bfa4368a7",
+    "_metadata": {
+        "created_on": 1483228800,
+        "created_by": "admin",
+        "updated_on": 1483228800,
+        "updated_by": "admin",
+        "collection_name": "core_collection_field_type",
+        "indexes": {}
+    }
+}

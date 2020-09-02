@@ -1,0 +1,14 @@
+{
+    "name": "short_string",
+    "internal_type": "STRING",
+    "unique_id": "d9e9ccc0-69be-4d98-b04d-95b920ec0c74",
+    "script": "import {FieldType} from \"../FieldType.js\";\n\nexport class ShortString extends FieldType {\n\nconstructor(value) {\n\nsuper(string);\n\n}\n\n\n\nreturn this._value;\n}\n\nset value(value) {\n\nthis._value = value;\n}\n}",
+    "_metadata": {
+        "created_on": 1483228800,
+        "created_by": "admin",
+        "updated_on": 1483228800,
+        "updated_by": "admin",
+        "collection_name": "core_collection_field_type",
+        "indexes": {}
+    }
+}

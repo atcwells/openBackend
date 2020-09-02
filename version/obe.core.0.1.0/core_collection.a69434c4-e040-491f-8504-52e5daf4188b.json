@@ -1,0 +1,30 @@
+{
+  "label": "Collection Script",
+  "name": "core_collection_script",
+  "fields": {
+    "name": {
+      "name": "name",
+      "type": "short_string",
+      "unique": true
+    },
+    "version": {
+      "name": "version",
+      "type": "short_string",
+      "unique": true
+    },
+    "collection": {
+      "name": "collection",
+      "type": "reference"
+    }
+  },
+  "unique_id": "a69434c4-e040-491f-8504-52e5daf4188b",
+  "_metadata": {
+    "collection_name": "core_collection",
+    "created_on": 1483228800,
+    "created_by": "admin",
+    "updated_on": 1483228800,
+    "updated_by": "admin",
+    "unique_fields": "name",
+    "indexes": {}
+  }
+}

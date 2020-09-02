@@ -1,0 +1,28 @@
+{
+  "label": "Route",
+  "name": "core_route",
+  "fields": {
+    "name": {
+      "name": "name",
+      "type": "short_string",
+      "unique": true
+    },
+    "url_suffix": {
+      "name": "url_suffix",
+      "type": "short_string",
+      "unique": true
+    },
+    "core_app_user_interface": {
+      "name": "core_app_user_interface",
+      "type": "reference"
+    }
+  },
+  "unique_id": "11b86176-3bd5-4861-8fae-c44cedd4cf43",
+  "_metadata": {
+    "collection_name": "core_collection",
+    "created_on": 1483228800,
+    "created_by": "admin",
+    "updated_on": 1483228800,
+    "updated_by": "admin"
+  }
+}
